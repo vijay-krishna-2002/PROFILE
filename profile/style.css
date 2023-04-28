@@ -1,0 +1,56 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Styling for the container holding the profile information */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+/* Styling for the profile information */
+.profile {
+  text-align: center;
+  margin-right: 2em;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* Styling for the details section */
+.details {
+  width: 50%;
+}
+
+.details h3 {
+  margin-top: 1em;
+}
+
+.details ul {
+  list-style: none;
+  margin-top: 1em;
+}
+
+.details li {
+  margin-bottom: 0.5em;
+}
+
+
+
+
